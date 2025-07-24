@@ -26,6 +26,8 @@ from order_item.views import Order_itemViewSet
 from payment.views import PaymentViewSet
 from shipment.views import ShipmentViewSet
 from wishlist.views import WishlistViewSet
+from rest_framework_simplejwt.views import TokenObtainPairView, TokenRefreshView
+from accounts.views import RegisterView
 
 router = DefaultRouter()
 router.register(r'products', ProductViewSet)
@@ -41,4 +43,7 @@ router.register(r'wishlists', WishlistViewSet)
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/', include(router.urls)),
+    path('api/register/', RegisterView.as_view(), name='register'),
+    path('api/login/', TokenObtainPairView.as_view(), name='token_obtain_pair'),
+    path('api/token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),
 ]
