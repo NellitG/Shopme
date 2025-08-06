@@ -10,4 +10,4 @@ class Customer(models.Model):
     address = models.CharField(blank=True, null=True)
 
     def __str__(self):
-        return self.customer_name
+        return self.name
