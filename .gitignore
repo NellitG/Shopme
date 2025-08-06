@@ -38,3 +38,4 @@ Thumbs.db
 # Static/media files (if generated)
 staticfiles/
 media/
+Ecommerce/firebase_config.py
