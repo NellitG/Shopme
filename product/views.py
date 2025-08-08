@@ -6,6 +6,8 @@ from rest_framework import filters
 from rest_framework.views import APIView
 from rest_framework.pagination import PageNumberPagination
 import httpx
+from django.utils.decorators import method_decorator
+from django.views.decorators.cache import cache_page
 
 # Create your views here.
 class ProductViewSet(viewsets.ModelViewSet):
@@ -14,6 +16,7 @@ class ProductViewSet(viewsets.ModelViewSet):
     filter_backends = [filters.SearchFilter]
     search_fields = ['name', 'description']
 
+@method_decorator(cache_page(60 * 5), name='dispatch')
 class CombinedProductView(APIView):
     async def get(self, request):
         async with httpx.AsyncClient() as client:
