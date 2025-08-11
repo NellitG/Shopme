@@ -1,5 +1,8 @@
 **Ecommerce API Template**
 
+A fully-featured E-commerce REST API built with Django + Django REST Framework, designed as a starting point for building scalable online stores.
+Includes authentication, product management, cart & checkout flow, orders, payments, and shipments out-of-the-box.
+
 
 **How To Use The Django Template Repository**
 
