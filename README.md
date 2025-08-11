@@ -4,6 +4,9 @@ A fully-featured E-commerce REST API built with Django + Django REST Framework, 
 Includes authentication, product management, cart & checkout flow, orders, payments, and shipments out-of-the-box.
 
 
+**Features**
+
+
 **How To Use The Django Template Repository**
 
 env already installed
