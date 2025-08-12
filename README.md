@@ -7,6 +7,12 @@ Includes authentication, product management, cart & checkout flow, orders, payme
 **Features**
 
 
+**Products**
+
+
+<img width="1362" height="606" alt="Products" src="https://github.com/user-attachments/assets/d3565cf3-f1ec-4a4c-862c-6f06e60abcba" />
+
+
 **How To Use The Django Template Repository**
 
 env already installed
