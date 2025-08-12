@@ -58,6 +58,7 @@ Includes authentication, product management, cart & checkout flow, orders, payme
 **User Authentication and Authorization (JWT- based)**
 
 
+
 **How To Use The Django Template Repository**
 
 env already installed
