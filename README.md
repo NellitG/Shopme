@@ -58,6 +58,19 @@ Includes authentication, product management, cart & checkout flow, orders, payme
 **User Authentication and Authorization (JWT- based)**
 
 
+**🛠 Tech Stack**
+
+
+Backend: Django, Django REST Framework
+
+
+
+Database: PostgreSQL (SQLite for local dev)
+
+
+
+Authentication: JWT (SimpleJWT)
+
 
 **How To Use The Django Template Repository**
 
