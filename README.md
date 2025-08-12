@@ -55,6 +55,8 @@ Includes authentication, product management, cart & checkout flow, orders, payme
 <img width="1363" height="626" alt="Wishlists" src="https://github.com/user-attachments/assets/6c64377c-a417-4245-b8b9-ef284bdb8685" />
 
 
+**User Authentication and Authorization (JWT- based)**
+
 
 **How To Use The Django Template Repository**
 
