@@ -42,6 +42,20 @@ Includes authentication, product management, cart & checkout flow, orders, payme
 
 <img width="1356" height="606" alt="Order_items" src="https://github.com/user-attachments/assets/efe945a4-3db6-46df-8ce4-cab8507bb13f" />
 
+
+**Shipments**
+
+
+<img width="1363" height="499" alt="Shipments" src="https://github.com/user-attachments/assets/da69a620-a540-4651-9d2e-c0179a1b183b" />
+
+
+**Wishlists**
+
+
+<img width="1363" height="626" alt="Wishlists" src="https://github.com/user-attachments/assets/6c64377c-a417-4245-b8b9-ef284bdb8685" />
+
+
+
 **How To Use The Django Template Repository**
 
 env already installed
